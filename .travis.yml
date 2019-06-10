@@ -12,6 +12,6 @@ script:
 
 deploy:
   provider: script
-  script: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker push wisecloud/wise2c-ui-base:$VERSION
+  script: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker push wisecloud/slanger:$VERSION
   on:
     all_branches: true
