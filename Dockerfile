@@ -1,4 +1,4 @@
-FROM ruby:2.2.0
+FROM ruby:2.3.0
 
 RUN gem install slanger
 
