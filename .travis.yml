@@ -1,0 +1,17 @@
+sudo: required
+
+
+services:
+- docker
+
+before_install:
+- VERSION=0.6.0
+
+script:
+- docker build -t wisecloud/slanger:$VERSION .
+
+deploy:
+  provider: script
+  script: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker push wisecloud/wise2c-ui-base:$VERSION
+  on:
+    all_branches: true
