@@ -1,0 +1,4 @@
+websocket_host: 0.0.0.0:8088
+app_key: ${PUSHER_APPKEY}
+secret: ${PUSHER_SECRET}
+redis_address: redis://wise2c:${REDIS_PWD}@${REDIS_URL}:${REDIS_PORT}/1
