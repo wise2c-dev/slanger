@@ -1,6 +1,6 @@
-FROM ruby:2.2.0
+FROM antillion/slanger:0.6.0
 
-RUN gem install slanger -v 0.6.0 && mkdir /app/ 
+RUN mkdir /app/ 
 
 ADD ./config.template /app/
 WORKDIR /app/
