@@ -1,3 +1,3 @@
 app_key: ${PUSHER_APPKEY}
 secret: ${PUSHER_SECRET}
-redis_address: redis://wise2c:`${REDIS_PWD}`@${REDIS_URL}:${REDIS_PORT}/1
+redis_address: redis://wise2c:d2lzZTJjJTIxJTQwJTIzJTI0JTI1@${REDIS_URL}:${REDIS_PORT}/1
