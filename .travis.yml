@@ -5,7 +5,7 @@ services:
 - docker
 
 before_install:
-- VERSION=0.6.0
+- VERSION=0.6.1
 
 script:
 - docker build -t wisecloud/slanger:$VERSION .
